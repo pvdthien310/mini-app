@@ -1,0 +1,5 @@
+{
+  "./**/*.{ts,tsx,js,jsx}": ["eslint --fix", "bash -c tsc --noEmit"],
+  "./**/*.{ts,js,tsx,jsx,json,*rc}": ["prettier --write"],
+  "package.json": ["npx -y sort-package-json"]
+}
